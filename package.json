@@ -1,0 +1,32 @@
+{
+  "name": "priceanalyzer",
+  "version": "1.0.0",
+  "description": "Analyzing prices from different watch forums",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node index.js --presets es2015,stage-2"
+  },
+  "author": "Tom-Einar Sørensen",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomeinar/PriceAnalyzer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tomeinar/PriceAnalyzer/issues"
+  },
+  "homepage": "https://github.com/tomeinar/PriceAnalyzer#readme",
+  "dependencies": {
+    "babel": "^6.5.2",
+    "node-webcrawler": "^0.8.0",
+    "request": "^2.79.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-core": "^6.22.1",
+    "babel-preset-env": "^1.1.8",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-stage-2": "^6.22.0"
+  }
+}
